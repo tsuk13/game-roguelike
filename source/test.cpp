@@ -1,4 +1,5 @@
 #include<iostream>
+#include"Entity.h"
 
 int main(){
   int vertLines = 24;
@@ -9,5 +10,7 @@ int main(){
     }
     std::cout<<"\n";
   }
+  Entity* e = new Entity();
+  std::cout << e->getName() << "\n";
   return 0;
 }
